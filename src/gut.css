@@ -1,0 +1,164 @@
+body {
+    background-color: hsl(0, 0%, 13%);
+    color: hsl(80, 80%, 63%);
+    font-size: 2pc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+shid {
+    background-color: hsl(0, 0%, 13%);
+    color: hsl(80, 80%, 63%);
+    font-size: 3.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+shid:hover {
+    color: hsl(80, 80%, 63%);
+    cursor: help;
+    font-size: 1000%;
+
+    
+}
+shipit {
+font-size: 2vmax;
+}
+button {
+color: black;
+background-color: transparent;
+}
+#point {
+cursor: pointer;
+}
+
+.linkenburger {
+cursor: pointer;
+--red: #ff3860;
+--red-dark: #ff1443;
+--red-light: #ff5c7c;
+--blue: #498afb;
+--blue-dark: #2674fa;
+--blue-light: #6ca0fc;
+--orange: #fa8142;
+--orange-dark: #f96a1f;
+--orange-light: #fb9865;
+--green: #09c372;
+--green-dark: #07a15e;
+--green-light: #0be586;
+--purple: #9166cc;
+--purple-dark: #7d4bc3;
+--purple-light: #a481d5;
+--pink: #ff4088;
+--pink-dark: #ff1c72;
+--pink-light: #ff649e;
+--gray0: #f8f8f8;
+--gray1: #dbe1e8;
+--gray2: #b2becd;
+--gray3: #6c7983;
+--gray4: #454e56;
+--gray5: #2a2e35;
+--gray6: #12181b;
+--nav-width: 4em;
+--font-body: "sofia-pro",sans-serif;
+--font-head: "cubano",sans-serif;
+--font-code: "attribute-mono",monospace;
+--font-size: 20px;
+--max-width-bp: 768px;
+--orange-pink: linear-gradient(to bottom right,var(--orange-light),var(--orange-dark) 85%);
+--green-grad: linear-gradient(to bottom right,var(--green-light),var(--green-dark) 85%);
+--background: var(--gray6);
+--background-opacity: rgba(18,24,27,0.58);
+--text-color: var(--gray2);
+--h-color: #fff;
+--nav-shadow: 4px 0 10px -3px #010101;
+--card-shadow: 0 4px 8px rgba(0,0,0,0.38);
+--toc-shadow: rgba(0,0,0,0.7) 0px 10px 20px 0px;
+--nav-bg: var(--gray5);
+--tag-bg: var(--gray4);
+--code-bg: #22262f;
+--card-bg: var(--gray5);
+--overlay-bg: rgba(0,0,0,0.9);
+--h-border: 2px dashed var(--nav-bg);
+--card-border: 1px solid var(--nav-bg);
+--card-radius: 0.25em;
+--nav-border: 2px dashed var(--text-color);
+font-family: var(--font-code);
+background: var(--code-bg);
+font-size: .85em;
+font-weight: 700;
+color: var(--h-color);
+background-image: linear-gradient(90deg,var(--orange-dark),var(--pink-light));
+padding: 0 4px;
+border-radius: 3px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 10vmax;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+
+.linkenburger:hover {
+    width: 15vmax;
+    font-size: 1.275em;
+}
+
+.bac {
+    --red: #ff3860;
+--red-dark: #ff1443;
+--red-light: #ff5c7c;
+--blue: #498afb;
+--blue-dark: #2674fa;
+--blue-light: #6ca0fc;
+--orange: #fa8142;
+--orange-dark: #f96a1f;
+--orange-light: #fb9865;
+--green: #09c372;
+--green-dark: #07a15e;
+--green-light: #0be586;
+--purple: #9166cc;
+--purple-dark: #7d4bc3;
+--purple-light: #a481d5;
+--pink: #ff4088;
+--pink-dark: #ff1c72;
+--pink-light: #ff649e;
+--gray0: #f8f8f8;
+--gray1: #dbe1e8;
+--gray2: #b2becd;
+--gray3: #6c7983;
+--gray4: #454e56;
+--gray5: #2a2e35;
+--gray6: #12181b;
+--nav-width: 4em;
+--font-body: "sofia-pro",sans-serif;
+--font-head: "cubano",sans-serif;
+--font-code: "attribute-mono",monospace;
+--font-size: 20px;
+--max-width-bp: 768px;
+--orange-pink: linear-gradient(to bottom right,var(--orange-light),var(--orange-dark) 85%);
+--green-grad: linear-gradient(to bottom right,var(--green-light),var(--green-dark) 85%);
+--background: var(--gray6);
+--background-opacity: rgba(18,24,27,0.58);
+--text-color: var(--gray2);
+--h-color: #fff;
+--nav-shadow: 4px 0 10px -3px #010101;
+--card-shadow: 0 4px 8px rgba(0,0,0,0.38);
+--toc-shadow: rgba(0,0,0,0.7) 0px 10px 20px 0px;
+--nav-bg: var(--gray5);
+--tag-bg: var(--gray4);
+--code-bg: #22262f;
+--card-bg: var(--gray5);
+--overlay-bg: rgba(0,0,0,0.9);
+--h-border: 2px dashed var(--nav-bg);
+--card-border: 1px solid var(--nav-bg);
+--card-radius: 0.25em;
+--nav-border: 2px dashed var(--text-color);
+font-family: var(--font-code);
+background: var(--code-bg);
+font-size: .85em;
+font-weight: 700;
+color: var(--h-color);
+background-image: linear-gradient(90deg,var(--orange-dark),var(--blue-light));
+padding: 0 4px;
+border-radius: 3px;
+
+}
