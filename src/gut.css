@@ -162,3 +162,14 @@ padding: 0 4px;
 border-radius: 3px;
 
 }
+.coc {
+   background-color: hsl(218, 12%, 19%); 
+   font-family: monospace;
+   font-weight: 800;
+   size: 4pc;
+}
+.a {
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
