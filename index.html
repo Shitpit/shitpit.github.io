@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shipit main</title>
     <link rel="stylesheet" href="src/gut.css">
-    <script src="src/gut.js">
+    <script>
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+</script>
+    <script src="src/gut.js">  
     </script>
     <style>
         /* local selection style by _kvahn-ui_*/
@@ -25,11 +31,11 @@
     </style>
 </head>
 <body class="coc">
-    sorry this site is under <span style="color: hsl(18, 53%, 58%);">maintainance</span> 
+    sorry this site is under <span onclick="play()" style="color: hsl(18, 53%, 58%); cursor: pointer;">maintainance</span> 
     <br/>
     <br/>
-    <a class="a" onclick="openwindowpopup('src/zazins.html')"> for <span style="color: hsl(248, 53%, 58%);"> zazins</span> click here </a>
-
+    <a class="a" onclick="openwindowpopup('src/zazins.html'); onclick=play()"> for <span style="color: hsl(248, 53%, 58%);"> zazins</span> click here </a>
+    <audio id="audio" src="src/vine.mp3"></audio>
 
 </body>
 </html>
