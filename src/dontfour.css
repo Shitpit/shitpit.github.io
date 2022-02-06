@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.main {
+ background-color: hsl(0, 0%, 13%);
+ color: hsl(0, 70%, 53%);
+ font-family: 'Roboto', sans-serif;
+ font-size: 1.61803398875em;
+ cursor: default;
+ text-align: center;
+ font-weight: 100;
+}
+.title {
+    background-color: hsl(0, 0%, 13%);
+    color: hsl(100, 80%, 43%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2pc;
+    cursor: default;
+    text-align: center;
+    font-weight: 800;
+    
+}
+.title:hover {
+    float: left;
+}
+
