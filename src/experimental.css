@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 .experimental {
--webkit-locale: "en";
+-webkit-locale: "en-NZ";
 box-sizing: border-box;
 overflow-y: scroll;
 --balloon-border-radius: 2px;
