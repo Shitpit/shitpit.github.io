@@ -21,3 +21,12 @@ h1 {
     background-color: #bb9af7;
     color: #1a1b26;
 }
+::-moz-selection {
+    background-color: #bb9af7;
+    color: #1a1b26;
+}
+a {
+    color: #2ac3de;
+    text-decoration: none;
+    cursor: pointer;
+}
