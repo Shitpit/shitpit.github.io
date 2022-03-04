@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
+.title {
+  text-decoration: none;
+   text-align: center;
+   font-family: sans-serif;
+   
+  }
+.gentleman {
+  font-size: 1.5pc;
+  color: rgb(255, 129, 129);
+  border-radius: 8px;
+  padding: 0px;
+  margin-top: 2px;
+  font-family: sans-serif;
+text-rendering: geometricPrecision;
+box-sizing: border-box;
+transition: fill .5s ease;
+font-weight: lighter;
+background-color: #08012a;
+
+
+
+
+
+
+  
+}
+
+
