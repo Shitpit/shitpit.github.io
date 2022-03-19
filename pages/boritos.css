@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,340;1,400&display=swap');
+.boritos {
+    background-color: #e2761d;
+    color: #001115;
+    font-size: 1.25pc;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+   text-align: justify;
+   padding: 0%;
+   position:relative;
+}
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 340;
+    font-size: 3.5rem;
+    padding: 0%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #007E94;
+    color: #001115;
+    text-align: center;
+    font-size: 1em;
+ }
