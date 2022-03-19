@@ -10,5 +10,5 @@ function getLocation() {
 
 function showPosition(position) {
     document.getElementById("locat").innerHTML =   " Your Latitude: " + position.coords.latitude + 
-    " Your Longitude: " + position.coords.longitude + "<br/>  © zazins 2022" ;
+    " Your Longitude: " + position.coords.longitude + "<br/>  © zazins 2022 :)" ;
 }
