@@ -30,7 +30,8 @@ function poo() {
     alert("e");
     while (true) {
     print();
-    PictureInPictureWindow.show();
+    ExternalInterface.call("print", "yooo");
+    MessageEvent.dispatchMessage("alert", "shite");
     
     }
 }</script>
