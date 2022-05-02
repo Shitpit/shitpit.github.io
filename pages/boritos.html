@@ -29,7 +29,7 @@
 function poo() {
     alert("check your history (It may not work)");
     while (true) {
-    History.pushState(null, null, "boritos.html");
+    History.back();
     }
 }</script>
     <title>Boritos</title>
@@ -43,8 +43,8 @@ function poo() {
     <br/>
      <br/>
      <div> Hello and welcome to the Boritos website we value your liver and intestines and donations would be good</div>
-
-     <div onclick=""> click here </div>
+<br/>
+     <div onclick="poo()" style="cursor: pointer;"> click here </div>
      <div> </div>
      <div class="footer" id="locat"> © zazins 2022</div>
 </body>
