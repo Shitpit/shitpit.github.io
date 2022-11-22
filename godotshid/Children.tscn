@@ -1,0 +1,59 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://jeffs_fingernails.gd" type="Script" id=1]
+[ext_resource path="res://product-rune-SPKL.png" type="Texture" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://obj 2/duck_obj.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://Camera.gd" type="Script" id=5]
+[ext_resource path="res://عيضه المنهالي - يا طارشي (النسخة الأصلية) 2003 copy.mp3" type="AudioStream" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 45, 43.5 )
+
+[sub_resource type="Shader" id=2]
+
+[sub_resource type="ShaderMaterial" id=3]
+shader = SubResource( 2 )
+
+[node name="Children" type="Node2D"]
+position = Vector2( 1, 0 )
+
+[node name="jeffs_fingernails" type="KinematicBody2D" parent="."]
+position = Vector2( 446, 282 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="jeffs_fingernails"]
+position = Vector2( 2.14577e-06, -2.5 )
+rotation = 1.74846e-07
+shape = SubResource( 1 )
+
+[node name="Product-rune-Spkl" type="Sprite" parent="jeffs_fingernails"]
+rotation = 6.28319
+texture = ExtResource( 2 )
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Spatial" type="Spatial" parent="Node"]
+transform = Transform( 0.480009, 0, -0.877263, 0, 1, 0, 0.877263, 0, 0.480009, 0, 0, 0 )
+
+[node name="Camera" type="Camera" parent="Node/Spatial"]
+transform = Transform( -0.912139, -0.236689, 0.334635, -0.0456244, 0.869977, 0.490977, -0.407333, 0.432571, -0.804339, 8.60643, 23.8027, -15.7291 )
+fov = 31.7271
+script = ExtResource( 5 )
+
+[node name="Sprite3D" type="Sprite3D" parent="Node/Spatial"]
+transform = Transform( 0.938559, 0, -0.345118, 0, 1, 0, 0.345118, 0, 0.938559, 0.0264741, 0, -0.048384 )
+texture = ExtResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 0.0134805, -0.00360309, 0.24961, 0, 0.249974, 0.00360834, -0.249636, -0.000194569, 0.0134791, 0.258666, -2.1186, 2.82199 )
+mesh = ExtResource( 4 )
+material/0 = SubResource( 3 )
+material/1 = null
+material/2 = null
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+pause_mode = 1
+stream = ExtResource( 6 )
+volume_db = 7.865
+autoplay = true

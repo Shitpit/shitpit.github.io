@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/عيضه المنهالي - يا طارشي (النسخة الأصلية) 2003 copy.mp3-f234238a82865e014dad9f00e5684225.mp3str"
+
+[deps]
+
+source_file="res://عيضه المنهالي - يا طارشي (النسخة الأصلية) 2003 copy.mp3"
+dest_files=[ "res://.import/عيضه المنهالي - يا طارشي (النسخة الأصلية) 2003 copy.mp3-f234238a82865e014dad9f00e5684225.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
