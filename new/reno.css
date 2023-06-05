@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.reno {
+ background-color: #212121;
+ color: #fff2f2;
+ font-family: 'Roboto Mono', monospace;
+ 
+}
+h1 {
+    font-size: 85px;
+}
+h2 {
+    font-size: 43px
+}
+h3 {
+    font-size: 23px;
+}
+h4 {
+    font-size: 12px;
+}
